@@ -65,7 +65,7 @@
 
 /* shawcasee */
 .showcase{
-    background: url('../img/showcase.jpg') no-repeat -100px 0;
+    background: url('../img/header.png') no-repeat -100px 0;
     min-height: 450px;
     color:#fff;
 
@@ -162,4 +162,32 @@
     a{
         background: map-get($foundation-palette,alert);
     }
+}
+
+.section-a{
+    margin-top: 30px;
+    padding: 50px 0;
+    img{
+        width: 100%;
+    }
+    background: $light-gray;
+}
+
+.section-b{
+    background: $dark-gray;
+    color: #fff;
+    padding: 50px 0;
+    text-align:center;
+}
+.section-c{
+    background: map-get($foundation-palette,primary);
+    color:#fff;
+    padding: 50px 0;
+    text-align: center;
+    .fa{
+        font-size: 90px;
+    }
+}
+footer{
+    padding: 40px 0;
 }
