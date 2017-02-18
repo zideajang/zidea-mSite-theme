@@ -50,4 +50,5 @@
 @include motion-ui-transitions;
 @include motion-ui-animations;
 
-@import 'msite'
+@import '../bower_components/font-awesome-sass/assets/stylesheets/font-awesome';
+@import 'msite';

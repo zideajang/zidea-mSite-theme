@@ -102,3 +102,64 @@
     }
     
 }
+
+.domain-search{
+    background: $light-gray;
+    padding: 30px 20px 20px 20px;
+    border-bottom: 2px #ccc solid;
+    margin-bottom: 30px;
+}
+
+.p-box-1, .p-box-2, .p-box-3{
+    text-align: center;
+    .fa{
+        font-size: 60px;
+    }
+    .features{
+        margin:20px 0 30px 0;
+        li{
+            padding: 10px 0 10px 0;
+            border-bottom: #ccc solid 1px;
+        }
+    }
+}
+
+.p-box-1{
+    .fa{
+        color:map-get($foundation-palette,primary);
+    }
+    .pricing span{
+        font-size: 35px;
+        font-weight: bold;
+        color: map-get($foundation-palette,primary);
+    }
+}
+
+
+.p-box-2{
+    .fa{
+        color:map-get($foundation-palette,secondary);
+    }
+    .pricing span{
+        font-size: 35px;
+        font-weight: bold;
+        color: map-get($foundation-palette,secondary);
+    }
+    a{
+        background: map-get($foundation-palette,secondary);
+    }
+}
+
+.p-box-3{
+    .fa{
+        color:map-get($foundation-palette,alert);
+    }
+    .pricing span{
+        font-size: 35px;
+        font-weight: bold;
+        color: map-get($foundation-palette,alert);
+    }
+    a{
+        background: map-get($foundation-palette,alert);
+    }
+}
