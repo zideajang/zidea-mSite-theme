@@ -17,7 +17,7 @@
             color:$light-gray;
             font-size:13px;
             i{
-                padding-right: 8px;
+                padding-left: 8px;
                 text-decoration: none;
                 &:first-child{
                     padding-left: 0px;
@@ -95,8 +95,10 @@
         .start-link{
             padding-top: 20px;
             a{
-                color:#fff;
+                font-weight: bolder;
+                color: map-get($foundation-palette, primary );
             }
+
         }
 
     }
